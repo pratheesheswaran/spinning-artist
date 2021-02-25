@@ -15,6 +15,11 @@ import Kurt from './asset/kurt.png'
 import Beatles from './asset/thebeatles.png'
 import DaftPunk from './asset/daftpunk.png'
 import Tame from './asset/tame.png';
+import ACDC from './asset/acdc.png'
+import AM from './asset/am.png'
+import Canberries from './asset/canberries.png'
+import Louis from './asset/louis.png'
+import Sonny from './asset/sonny.png'
 
 function App() {
 let randomPlaylistId = ['169513207', '200372875','207033244','362311979','299794412','62051568','783820320','994157668','746758332','245382738','1050706123']
@@ -43,6 +48,13 @@ debugger
         <img src={Beatles} className="spinningHead-4" alt="logo" />
         <img src={Tame} className="spinningHead-1" alt="logo" />
         <img src={RollingStone} className="spinningHead-3" alt="logo" />
+      </div>
+      <div className='rowdata'>
+        {/* <img src={ACDC} className="spinningHead-5" alt="logo" width='300'/> */}
+        <img src={AM} className="spinningHead-2" alt="logo" />
+        <img src={Canberries} className="spinningHead-4" alt="logo" />
+        <img src={Louis} className="spinningHead-1" alt="logo" />
+        <img src={Sonny} className="spinningHead-3" alt="logo" />
       </div>
 {/* 
       <iframe className="hiddenFrames" width="100%" height="300" scrolling="no" frameborder="no" 

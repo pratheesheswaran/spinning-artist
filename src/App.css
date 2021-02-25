@@ -139,3 +139,10 @@
     transform: rotate(-60deg);
   }
 }
+
+/* @media (max-width:641px)  {
+.rowdata {
+  display: flex;
+  flex-direction: column;
+}
+} */
